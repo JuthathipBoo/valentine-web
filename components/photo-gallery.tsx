@@ -7,12 +7,12 @@ import { Camera, ChevronLeft, ChevronRight, Heart, X } from "lucide-react"
 import Image from "next/image"
 
 const photos = [
-  { src: "/gallery/photo-6.jpg", caption: "รักเบ๊บๆคับ" },
-  { src: "/gallery/photo-2.jpg", caption: "รักเบ๊บๆมากๆ" },
-  { src: "/gallery/photo-3.jpg", caption: "รักโอที่สุดดดด" },
-  { src: "/gallery/photo-4.jpg", caption: "รักโอตลอดปายยยย" },
-  { src: "/gallery/photo-5.jpg", caption: "จะอยู่กับโอคับ" },
-  { src: "/gallery/photo-1.jpg", caption: "จะอยู่ซื้อดอกไม้ไปให้เรื่อยๆเยย" },
+  { src: "/valentine-web/gallery/photo-6.jpg", caption: "รักเบ๊บๆคับ" },
+  { src: "/valentine-web/gallery/photo-2.jpg", caption: "รักเบ๊บๆมากๆ" },
+  { src: "/valentine-web/gallery/photo-3.jpg", caption: "รักโอที่สุดดดด" },
+  { src: "/valentine-web/gallery/photo-4.jpg", caption: "รักโอตลอดปายยยย" },
+  { src: "/valentine-web/gallery/photo-5.jpg", caption: "จะอยู่กับโอคับ" },
+  { src: "/valentine-web/gallery/photo-1.jpg", caption: "จะอยู่ซื้อดอกไม้ไปให้เรื่อยๆเยย" },
 ]
 
 export function PhotoGallery(): React.JSX.Element {
