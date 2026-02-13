@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 10 40% 97%;
+    --foreground: 350 20% 16%;
+    --card: 10 50% 96%;
+    --card-foreground: 350 20% 16%;
+    --popover: 10 40% 97%;
+    --popover-foreground: 350 20% 16%;
+    --primary: 348 62% 48%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 10 30% 92%;
+    --secondary-foreground: 350 20% 20%;
+    --muted: 10 20% 93%;
+    --muted-foreground: 350 8% 45%;
+    --accent: 18 55% 68%;
+    --accent-foreground: 350 20% 16%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 10 18% 89%;
+    --input: 10 18% 89%;
+    --ring: 348 62% 48%;
+    --chart-1: 348 62% 48%;
+    --chart-2: 0 45% 68%;
+    --chart-3: 18 55% 68%;
+    --chart-4: 350 25% 78%;
+    --chart-5: 10 30% 84%;
+    --radius: 1rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
