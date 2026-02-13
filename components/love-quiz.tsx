@@ -199,10 +199,10 @@ export function LoveQuiz() {
 
               <h3 className="font-serif text-2xl sm:text-3xl text-foreground mb-2">
                 {score === 4
-                  ? "เธอเข้าใจฉันที่สุดเลย!"
+                  ? "เย้ยยย! ถูกหมดเยยย"
                   : score >= 2
-                    ? "เธอรู้จักฉันดีมาก!"
-                    : "มาทำความรู้จักกันเพิ่มนะ"}
+                    ? "รักเบ๊บๆที่สุดดด!"
+                    : "แหมะ เกือบถูกหมดแยะะ"}
               </h3>
 
               <p className="text-muted-foreground font-sans text-xs mb-1 tabular-nums">
@@ -211,8 +211,8 @@ export function LoveQuiz() {
 
               <p className="font-sans text-primary text-sm sm:text-base mb-6 font-light">
                 {score === 4
-                  ? "เธอคือคนที่รู้ใจฉันมากที่สุด"
-                  : "แต่ไม่ว่ายังไง ฉันก็รักเธอเสมอ"}
+                  ? "เบ๊บๆรู้ใจเค้าที่สุด"
+                  : "แต่ยังไงเค้าก็รักเบ๊บๆอยู่ดี อิอิ"}
               </p>
 
               <button
